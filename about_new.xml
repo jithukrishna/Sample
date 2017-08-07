@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f_bg"
+    >
+
+
+    <ImageView
+        android:id="@+id/frendylogo"
+        android:layout_width="@dimen/frendylogoHW"
+        android:layout_height="@dimen/frendylogoHW"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/f_logo"
+        android:layout_marginTop="@dimen/frendylogoMarginTop"
+         />
+
+    <com.flux.frendySupportMods.FontText
+        android:id="@+id/txtCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/txtCopyrightMarginTop"
+        android:textSize="@dimen/txtCopyrightTextSize"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/txtversion"/>
+
+    <com.flux.frendySupportMods.FontText
+        android:id="@+id/txtWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/txtCopyrightMarginTop"
+        android:textSize="@dimen/txtCopyrightTextSize"
+        android:textColor="#ffffff"
+        android:layout_below="@id/txtCopyright"/>
+
+    <com.flux.frendySupportMods.FontText
+        android:id="@+id/txtSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/support"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/txtCopyrightMarginTop"
+        android:textSize="@dimen/txtCopyrightTextSize"
+        android:textColor="#ffffff"
+        android:layout_below="@id/txtWebsite"/>
+
+    <com.flux.frendySupportMods.FontText
+        android:id="@+id/txtversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/txtversionTextSize"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/frendylogo"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
